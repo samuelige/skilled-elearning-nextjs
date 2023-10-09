@@ -5,8 +5,7 @@ import React from 'react'
 
 
 import { motion } from 'framer-motion';
-import { fadeIn, slideIn, staggerContainer, textVariant } from '@/_shared/utils/motion';
-import TypingText from '@/_shared/TypingText';
+import { fadeIn, slideIn, textVariant } from '@/_shared/utils/motion';
 
 const HeroSection = () => {
   return (
@@ -31,7 +30,7 @@ const HeroSection = () => {
               variants={slideIn('right', 'tween', 0.2, 1)}
               className='w-full mt-[2.88rem] md:hidden'
             >
-              <Image src={"/image-hero-mobile.png"} alt="image-hero-mobile" className='w-full h-auto object-fill md:hidden' width={327} height={301} />
+              <Image src={"./image-hero-mobile.png"} alt="image-hero-mobile" className='w-full h-auto object-fill md:hidden' width={327} height={301} />
             </motion.section>
             
           </div>

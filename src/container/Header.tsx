@@ -15,7 +15,7 @@ const Header = () => {
     className='w-full px-4 pt-4 relative z-10 md:pl-[2.44rem] md:pr-10 md:pt-6 xl-1:px-0'
   >
     <div className='w-full flex flex-row items-center justify-between xl-1:max-w-[69.375rem] xl-1:m-auto'>
-            <Image src={'/logo-dark.svg'} alt='header_logo' width={89} height={35} />
+            <Image src={'./logo-dark.svg'} alt='header_logo' width={89} height={35} />
             <Button color={"yankeesBlue"}>Get Started</Button>
         </div>
   </motion.header>

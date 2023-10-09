@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
+
+const isProduction = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
     output: 'export',
-    images: {
-        domains: ["samuelige.github.io/skilled-elearning-nextjs"],
-    },
+    
 }
 
 module.exports = nextConfig

@@ -16,13 +16,13 @@ const HeroLayout = () => {
     >
       <motion.img
           variants={slideIn('right', 'tween', 0.2, 1)}
-          src="/image-hero-desktop.png" 
+          src="./image-hero-desktop.png" 
           alt="image-hero-deskto"
           className="hidden absolute top-[-3rem] right-[-9rem] z-0 h-full  xl:block xl:top-[-6rem]  xl:right-[-23rem] xl-1:top-[-6rem]  xl-1:right-[-18rem] "
       ></motion.img>
       <motion.img
           variants={slideIn('right', 'tween', 0.2, 1)}
-          src="/image-hero-tablet.png" 
+          src="./image-hero-tablet.png" 
           alt="image-hero-tablet"
           className="absolute top-[-4rem] right-[-16rem] z-0 h-full hidden  md:block xl:hidden"
       ></motion.img>

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Frontend Mentor | Skilled e-learning landing page',
   icons: {
     icon: {
-      url: "/favicon-32x32.png",
+      url: "./favicon-32x32.png",
       type: "image/png",
     },
   },
